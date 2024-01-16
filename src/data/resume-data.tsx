@@ -131,20 +131,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Wadzpay API Sandboxing",
-      techStack: [
-        "PHP",
-        "Laravel",
-        "Vue",
-      ],
-      description: "This site purpose is to be the documentation of how to integrate with WadzPay wallet API",
-      // logo: ConsultlyLogo,
-      link: {
-        label: "integration.wadzpay.id",
-        href: "https://integration.wadzpay.com",
-      },
-    },
-    {
       title: "Dishub Live CCTV",
       techStack: [
         "PHP",
