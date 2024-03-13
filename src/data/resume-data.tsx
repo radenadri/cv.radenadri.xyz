@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -27,12 +8,12 @@ export const RESUME_DATA = {
   about:
     "Enthusiastic developer that specialized in web development with a passion for creating engaging digital experiences",
   summary:
-    "Web developer with 3 years of experience. I love creating beautiful websites and web applications. Currently working with PHP and Laravel using TALL (Tailwind, Alpine, Livewire, Laravel) stack and also VILT (Vue, Inertia, Laravel, Tailwind) stack. But it is not limited only with Laravel, i also learning Nuxt and Flutter currently to getting my feets wet with awesome technology.",
+    "I love creating beautiful websites and mobile applications. Lately i was working with PHP and Laravel using TALL (Tailwind, Alpine, Livewire, Laravel) stack and also VILT (Vue, Inertia, Laravel, Tailwind) stack and also working with Flutter currently as a Flutter Developer.",
   avatarUrl: "https://lh3.googleusercontent.com/d/1QijJiJCKnASrp6_wAex_HeJeVkfBDDT8",
   personalWebsiteUrl: "https://radenadri.xyz",
   contact: {
     email: "radenadriep@gmail.com",
-    tel: "",
+    tel: "-",
     social: [
       {
         name: "GitHub",
@@ -43,12 +24,7 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/radenadri/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/radenadri",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
@@ -63,17 +39,27 @@ export const RESUME_DATA = {
     {
       company: "Pentacode",
       link: "https://pentacode.id",
+      badges: ["Hybrid"],
+      title: "Flutter Developer",
+      // logo: ParabolLogo,
+      start: "2023",
+      end: "now",
+      description:
+        "Maintaining existing apps and creating new features, also creating new apps. Technologies: Dart, Flutter, Firebase / Supabase.",
+    },
+    {
+      company: "Pentacode",
+      link: "https://pentacode.id",
       badges: ["Onsite"],
       title: "Web Developer",
       // logo: ParabolLogo,
       start: "2019",
-      end: "now",
+      end: "2023",
       description:
-        "Implemented new features, worked on improving the website performance, and maintained the website. Technologies: Laravel, Vue, Flutter, and Tailwind.",
+        "Implemented new features, worked on improving the website performance, and maintained the website. Technologies: Laravel, Vue, and Tailwind.",
     },
   ],
   skills: [
-    "Bootstrap",
     "Tailwind",
     "PHP",
     "Laravel",
@@ -81,9 +67,10 @@ export const RESUME_DATA = {
     "Livewire",
     "JavaScript",
     "TypeScript",
-    "Vue/Nuxt",
+    "Vue",
+    "Dart",
     "Flutter",
-    "MariaDB",
+    "Firebase",
     "Supabase",
   ],
   projects: [
@@ -168,6 +155,19 @@ export const RESUME_DATA = {
       link: {
         label: "Play Store / App Store",
         href: "https://play.google.com/store/apps/details?id=id.pentacode.jelajah_family_club",
+      },
+    },
+    {
+      title: "Passport",
+      techStack: [
+        "Dart",
+        "Flutter",
+      ],
+      description: "Mobile HR apps. The solution for modern HR.",
+      // logo: ConsultlyLogo,
+      link: {
+        label: "Play Store / App Store",
+        href: "https://play.google.com/store/apps/details?id=id.pentacode.portal",
       },
     },
   ],
