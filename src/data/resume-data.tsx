@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Enthusiastic developer that specialized in web development with a passion for creating engaging digital experiences",
   summary:
-    "I love creating beautiful websites and mobile applications. Lately i was working with PHP and Laravel using TALL (Tailwind, Alpine, Livewire, Laravel) stack and also VILT (Vue, Inertia, Laravel, Tailwind) stack and also working with Flutter currently as a Flutter Developer.",
+    "Enthusiastic Web Developer. Love to creating a usable websites and mobile applications. Lately i was working with PHP and Laravel with the main focus on the backend, when i needed to work with frontend, i bring my Vue.js and also React.js knowledge to tackling it. Also working with Flutter currently as a Flutter Developer.",
   avatarUrl: "https://lh3.googleusercontent.com/d/1QijJiJCKnASrp6_wAex_HeJeVkfBDDT8",
   personalWebsiteUrl: "https://radenadri.xyz",
   contact: {
@@ -45,7 +45,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "now",
       description:
-        "Maintaining existing apps and creating new features, also creating new apps. Technologies: Dart, Flutter, Firebase / Supabase.",
+        "Maintaining existing apps and creating new features, also creating new apps. Technologies: Dart, Flutter, Firebase.",
     },
     {
       company: "Pentacode",
@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2023",
       description:
-        "Implemented new features, worked on improving the website performance, and maintained the website. Technologies: Laravel, Vue, and Tailwind.",
+        "Implemented new features, worked on improving the website performance, and maintained the website. Technologies: Laravel, Vue / React and Tailwind.",
     },
   ],
   skills: [
@@ -67,7 +67,8 @@ export const RESUME_DATA = {
     "Livewire",
     "JavaScript",
     "TypeScript",
-    "Vue",
+    "React.js",
+    "Vue.js",
     "Dart",
     "Flutter",
     "Firebase",
