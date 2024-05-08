@@ -146,6 +146,19 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Simtaru PUPR Kota Sungai Penuh",
+      techStack: [
+        "PHP",
+        "Laravel",
+      ],
+      description: "Landing page for Simtaru PUPR Kota Sungai Penuh",
+      // logo: ConsultlyLogo,
+      link: {
+        label: "simtaru.puprkotasungaipenuh.id",
+        href: "https://simtaru.puprkotasungaipenuh.id",
+      },
+    },
+    {
       title: "Jelajah Family Club",
       techStack: [
         "Dart",
@@ -169,6 +182,32 @@ export const RESUME_DATA = {
       link: {
         label: "Play Store / App Store",
         href: "https://play.google.com/store/apps/details?id=id.pentacode.portal",
+      },
+    },
+    {
+      title: "Sound of Justice Radio",
+      techStack: [
+        "Dart",
+        "Flutter",
+      ],
+      description: "Sound of Justice is an apps that used by Kemenkumham for their official radio station program. User can listen the broadcast through this app.",
+      // logo: ConsultlyLogo,
+      link: {
+        label: "Play Store / App Store",
+        href: "https://play.google.com/store/apps/details?id=id.pentacode.sound_of_justice",
+      },
+    },
+    {
+      title: "SIPENGUIN TARU",
+      techStack: [
+        "Dart",
+        "Flutter",
+      ],
+      description: "SIPENGUIN TARU are apps that created for the residents of Kota Sungai Penuh. The apps purpose is to submit an application for an area use permit within the city area.",
+      // logo: ConsultlyLogo,
+      link: {
+        label: "Play Store / App Store",
+        href: "https://play.google.com/store/apps/details?id=id.pentacode.gis_sungai_penuh",
       },
     },
   ],
