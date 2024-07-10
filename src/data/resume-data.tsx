@@ -82,16 +82,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Simtaru PUPR Kota Sungai Penuh",
-      techStack: ["PHP", "Laravel"],
-      description: "Landing page for Simtaru PUPR Kota Sungai Penuh",
-      // logo: ConsultlyLogo,
-      link: {
-        label: "simtaru.puprkotasungaipenuh.id",
-        href: "https://simtaru.puprkotasungaipenuh.id",
-      },
-    },
-    {
       title: "Jelajah Family Club",
       techStack: ["Dart", "Flutter"],
       description:
