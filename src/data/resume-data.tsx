@@ -28,14 +28,7 @@ export const RESUME_DATA = {
       },
     ],
   },
-  education: [
-    {
-      school: "Politeknik Piksi Ganesha",
-      degree: "Bachelor's Degree in Information Technology",
-      start: "2014",
-      end: "2017",
-    },
-  ],
+  education: [],
   work: [
     {
       company: "Pentacode",
@@ -50,13 +43,17 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Laravel",
-    "Vue.js",
-    "Node.js",
     "Dart",
     "Flutter",
-    "Firebase",
+    "Android",
+    "iOS",
+    "Javascript",
+    "Node.js",
+    "PHP",
+    "Laravel",
+    "Wordpress",
     "SQLite",
+    "Firebase",
     "PostgreSQL",
   ],
   projects: [
@@ -101,17 +98,6 @@ export const RESUME_DATA = {
         label: "Play Store / App Store",
         href: "https://play.google.com/store/apps/details?id=id.pentacode.portal",
       },
-    },
-    {
-      title: "Sound of Justice Radio",
-      techStack: ["Dart", "Flutter"],
-      description:
-        "Sound of Justice is an apps that used by Kemenkumham for their official radio station program. User can listen the broadcast through this app.",
-      // logo: ConsultlyLogo,
-      link: {
-        label: "Play Store / App Store",
-        href: "https://play.google.com/store/apps/details?id=id.pentacode.sound_of_justice",
-      },
-    },
+    }
   ],
 } as const;
