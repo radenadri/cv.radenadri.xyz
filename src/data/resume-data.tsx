@@ -2,7 +2,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Adriana Eka Prayudha",
-  initials: "AE",
+  initials: "AEP",
   location: "Bandung, Indonesia, GMT+7",
   locationLink: "https://maps.app.goo.gl/sV57Te2gtvwFDWsx9",
   about:
@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   summary:
     "Love to creating a usable mobile applications. Currently working as a Flutter Developer.",
   avatarUrl:
-    "https://lh3.googleusercontent.com/d/1QijJiJCKnASrp6_wAex_HeJeVkfBDDT8",
+    "https://res.cloudinary.com/dvoj90vcy/image/upload/v1727768323/closeup_ogukcv.jpg",
   personalWebsiteUrl: "https://radenadri.xyz",
   contact: {
     email: "radenadriep@gmail.com",
@@ -21,11 +21,6 @@ export const RESUME_DATA = {
         url: "https://github.com/radenadri",
         icon: GitHubIcon,
       },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/radenadri",
-        icon: LinkedInIcon,
-      },
     ],
   },
   education: [],
@@ -34,19 +29,18 @@ export const RESUME_DATA = {
       company: "Pentacode",
       link: "https://pentacode.id",
       badges: ["Hybrid"],
-      title: "Mobile Developer",
+      title: "Full Stack Developer",
       // logo: ParabolLogo,
       start: "2022",
       end: "now",
       description:
-        "Maintaining existing apps and creating new features, also creating new apps. Technologies: Dart, Flutter, Firebase.",
+        "Maintaining existing and also creating new web and mobile apps and creating new features. Technologies: PHP, Laravel, Node.js, Dart, Flutter.",
     },
   ],
   skills: [
     "Dart",
     "Flutter",
     "Android",
-    "iOS",
     "Javascript",
     "Node.js",
     "PHP",
@@ -98,6 +92,6 @@ export const RESUME_DATA = {
         label: "Play Store / App Store",
         href: "https://play.google.com/store/apps/details?id=id.pentacode.portal",
       },
-    }
+    },
   ],
 } as const;
