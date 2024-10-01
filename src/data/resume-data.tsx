@@ -6,9 +6,9 @@ export const RESUME_DATA = {
   location: "Bandung, Indonesia, GMT+7",
   locationLink: "https://maps.app.goo.gl/sV57Te2gtvwFDWsx9",
   about:
-    "Enthusiastic mobile developer with a passion for creating engaging digital experiences",
+    "Enthusiastic developer with a passion for creating engaging digital experiences",
   summary:
-    "Love to creating a usable mobile applications. Currently working as a Flutter Developer.",
+    "Love to creating a usable web and mobile applications. Currently working as a Full Stack Developer.",
   avatarUrl:
     "https://res.cloudinary.com/dvoj90vcy/image/upload/v1727768323/closeup_ogukcv.jpg",
   personalWebsiteUrl: "https://radenadri.xyz",
