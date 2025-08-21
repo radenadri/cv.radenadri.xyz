@@ -13,7 +13,7 @@ resulted in website performance improvement and user satisfaction. Adept in coll
 functional teams and delivering projects on-time and on-budget.`,
   avatarUrl:
     "https://res.cloudinary.com/dvoj90vcy/image/upload/v1727768323/closeup_ogukcv.jpg",
-  personalWebsiteUrl: "https://radenadri.xyz",
+  personalWebsiteUrl: "https://pinkary.com/@radenadri",
   contact: {
     email: "radenadriep@gmail.com",
     tel: "-",
