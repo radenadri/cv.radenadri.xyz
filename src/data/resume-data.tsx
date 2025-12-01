@@ -13,7 +13,7 @@ resulted in website performance improvement and user satisfaction. Adept in coll
 functional teams and delivering projects on-time and on-budget.`,
   avatarUrl:
     "https://res.cloudinary.com/dvoj90vcy/image/upload/v1727768323/closeup_ogukcv.jpg",
-  personalWebsiteUrl: "https://pinkary.com/@radenadri",
+  personalWebsiteUrl: "https://radenadri.xyz",
   contact: {
     email: "radenadriep@gmail.com",
     tel: "-",
@@ -60,19 +60,11 @@ functional teams and delivering projects on-time and on-budget.`,
     "JavaScript",
     "TypeScript",
     "React",
-    "React Router",
     "Next.js",
     "PHP",
     "Laravel",
     "PostgreSQL",
-    "SQLite",
-    "Redis",
-    "Flutter",
-    "Firebase",
-    "Sentry",
     "Python",
-    "Django",
-    "FastAPI",
   ],
   projects: [
     {
@@ -93,16 +85,6 @@ functional teams and delivering projects on-time and on-budget.`,
       link: {
         label: "View study case",
         href: "https://radenadri.xyz/work/passport",
-      },
-    },
-    {
-      title: "Face Recognition service with DeepFace",
-      techStack: ["Python", "DeepFace", "FastAPI", "MySQL", "Docker"],
-      description:
-        "A face recognition service for attendance system. Applied in my previous company for integrations with Passport app.",
-      link: {
-        label: "View source code",
-        href: "https://github.com/radenadri/simple-frs",
       },
     },
   ],
