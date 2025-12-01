@@ -33,6 +33,18 @@ functional teams and delivering projects on-time and on-budget.`,
   education: [],
   work: [
     {
+      company: "Self-employed",
+      link: "",
+      badges: ["Freelance"],
+      title: "Freelance Web Developer",
+      // logo: ParabolLogo,
+      start: "2025",
+      end: "now",
+      description: `
+      Creating website with Wordpress and Laravel. Improving existing web apps with latest technology. Making database schema. Improving applications performance by tuning the query.
+      `,
+    },
+    {
       company: "Pentacode",
       link: "https://pentacode.id",
       badges: ["Hybrid"],
@@ -42,18 +54,6 @@ functional teams and delivering projects on-time and on-budget.`,
       end: "2025",
       description: `Collaborating with designers and product managers to translate UI/UX designs into functional apps. Writing clean, maintainable, and efficient code.
         Implementing responsive designs to ensure seamless user experiences across various devices. Built a UI for inventory management, e-commerce, HR apps, payment gateway dashboard and custom tailored apps by request, mostly using React`,
-    },
-    {
-      company: "Self-employed",
-      link: "",
-      badges: ["Freelance"],
-      title: "Freelance Web Developer",
-      // logo: ParabolLogo,
-      start: "2019",
-      end: "2022",
-      description: `
-      Creating website with Wordpress and Laravel. Improving existing web apps with latest technology. Making database schema. Improving applications performance by tuning the query.
-      `,
     },
   ],
   skills: [
