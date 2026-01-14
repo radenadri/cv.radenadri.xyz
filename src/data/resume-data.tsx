@@ -52,14 +52,20 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "HTML5",
+    "CSS3",
     "JavaScript",
     "TypeScript",
+    "Bun",
     "React",
-    "Next.js",
+    "React Native",
     "PHP",
     "Laravel",
+    "WordPress",
+    "Git",
+    "MySQL",
     "PostgreSQL",
-    "Python",
+    "Redis",
   ],
   projects: [
     {
