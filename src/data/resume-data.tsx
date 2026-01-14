@@ -5,12 +5,8 @@ export const RESUME_DATA = {
   initials: "AEP",
   location: "Jakarta, Indonesia, GMT+7",
   locationLink: "https://maps.app.goo.gl/sV57Te2gtvwFDWsx9",
-  about: `Enthusiastic developer with a passion for creating engaging digital, love to creating a usable web
-applications to solve the business problems.`,
-  summary: `Skilled frontend developer with focus on developing and
-maintaining front-end web applications. Led the implementation of new front-end development system which
-resulted in website performance improvement and user satisfaction. Adept in collaborating with cross-
-functional teams and delivering projects on-time and on-budget.`,
+  about: `Enthusiastic developer with a passion for creating engaging digital, love to creating a usable web and mobile applications to solve the business problems.`,
+  summary: `Skilled fullstack engineer with focus on developing and maintaining web and mobile applications. Led the implementation of new system which resulted in website performance improvement and user satisfaction.`,
   avatarUrl:
     "https://res.cloudinary.com/dvoj90vcy/image/upload/v1727768323/closeup_ogukcv.jpg",
   personalWebsiteUrl: "https://radenadri.xyz",
@@ -36,24 +32,23 @@ functional teams and delivering projects on-time and on-budget.`,
       company: "Self-employed",
       link: "",
       badges: ["Freelance"],
-      title: "Freelance Web Developer",
+      title: "Freelance Fullstack Engineer",
       // logo: ParabolLogo,
       start: "2025",
       end: "now",
       description: `
-      Creating website with Wordpress and Laravel. Improving existing web apps with latest technology. Making database schema. Improving applications performance by tuning the query.
+      Develop websites and applications with responsive designs and enhance features using the latest technologies. Design and optimize database schemas, including query tuning, to improve application performance. Implement full-stack solutions using Laravel and React for application development needs.
       `,
     },
     {
       company: "Pentacode",
       link: "https://pentacode.id",
       badges: ["Hybrid"],
-      title: "Frontend Developer",
+      title: "Fullstack PHP Developer",
       // logo: ParabolLogo,
       start: "2022",
       end: "2025",
-      description: `Collaborating with designers and product managers to translate UI/UX designs into functional apps. Writing clean, maintainable, and efficient code.
-        Implementing responsive designs to ensure seamless user experiences across various devices. Built a UI for inventory management, e-commerce, HR apps, payment gateway dashboard and custom tailored apps by request, mostly using React`,
+      description: `Build and develop responsive web interfaces using Wordpress, Laravel and React including features for e-commerce, HR, inventory, and payment dashboards. Build a backend and also build a web services (REST API) to be integrated with the frontend, also collaborate with backend developers for API integration, feature enhancements, and ensuring performance and cross-device compatibility. Writing code documentation, building application schema diagram and also ERD or any application flow that needed. Write clean, structured, and maintainable code using modern practices. Use Git for version control, debugging, and ensuring an optimal user experience through responsive design and frontend optimization.`,
     },
   ],
   skills: [
