@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,10 +21,22 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const projectId = "vfatvtzb19";
+
   return (
     <html lang="en" className={inter.className}>
       <body>{children}</body>
-      <Analytics />
+      <Script
+        id="microsoft-clarity-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `(function(c,l,a,r,i,t,y){
+                      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                  })(window, document, "clarity", "script", "${projectId}");`,
+        }}
+      />
     </html>
   );
 }
