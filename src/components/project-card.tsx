@@ -18,20 +18,7 @@ export function ProjectCard({ title, description, tags }: Props) {
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
         <div className="space-y-1">
-          <CardTitle className="text-base">
-            {link ? (
-              <a
-                href={link}
-                target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
-              >
-                {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
-              </a>
-            ) : (
-              title
-            )}
-          </CardTitle>
+          <CardTitle className="text-base">{title}</CardTitle>
           <CardDescription className="font-mono text-xs">
             {description}
           </CardDescription>
